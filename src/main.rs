@@ -45,7 +45,7 @@ impl Month {
             "august"|"aug"|"8" => Ok(Month {name:MonthName::August, number:8, number_of_days:NumDays::ThirtyOneDays}),
             "september"|"sept"|"9" => Ok(Month {name:MonthName::September, number:9, number_of_days:NumDays::ThirtyDays}),
             "october"|"oct"|"10" => Ok(Month {name:MonthName::October, number:10, number_of_days:NumDays::ThirtyOneDays}),
-            "november"|"nov"|"11" => Ok(Month {name:MonthName::November, number:11, number_of_days:NumDays::ThirtyOneDays}),
+            "november"|"nov"|"11" => Ok(Month {name:MonthName::November, number:11, number_of_days:NumDays::ThirtyDays}),
             "december"|"dec"|"12" => Ok(Month {name:MonthName::December, number:12, number_of_days:NumDays::ThirtyOneDays}),
             _ => Err(InputError)
         }
